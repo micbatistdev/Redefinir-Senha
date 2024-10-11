@@ -22,3 +22,5 @@ C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\bin\De
 C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
 C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\obj\Debug\net8.0-windows\Redefinir Senha.csproj.AssemblyReference.cache
 C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\obj\Debug\net8.0-windows\Redefini.F56FD47B.Up2Date
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\obj\Debug\net8.0-windows\Redefinir_Senha.Criar_Nova_Senha.resources
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\obj\Debug\net8.0-windows\Redefinir Senha.sourcelink.json
