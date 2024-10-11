@@ -118,30 +118,24 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label_email.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>711, 229</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="label_email.Size" type="System.Drawing.Size, System.Drawing">
     <value>67, 29</value>
   </data>
-  <data name="label1.Text" xml:space="preserve">
+  <data name="label_email.Text" xml:space="preserve">
     <value>E-Mail :</value>
   </data>
-  <data name="Whatsapp.AutoSize" type="System.Boolean, mscorlib">
+  <data name="label_whatsapp.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Whatsapp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="label_whatsapp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="Whatsapp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>711, 311</value>
-  </data>
-  <data name="Whatsapp.Text" xml:space="preserve">
+  <data name="label_whatsapp.Text" xml:space="preserve">
     <value>Whatsapp :</value>
   </data>
   <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
@@ -153,28 +147,34 @@
   <data name="textBox4.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="guna2TextBox2.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="input_email.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
-  <data name="guna2TextBox2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="input_email.Location" type="System.Drawing.Point, System.Drawing">
+    <value>711, 261</value>
+  </data>
+  <data name="input_email.Size" type="System.Drawing.Size, System.Drawing">
     <value>362, 36</value>
   </data>
-  <data name="guna2TextBox3.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="input_email.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="input_cdpostal.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
-  <data name="guna2TextBox3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="input_cdpostal.Size" type="System.Drawing.Size, System.Drawing">
     <value>42, 36</value>
   </data>
-  <data name="guna2TextBox4.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="input_ddd.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
-  <data name="guna2TextBox4.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="input_ddd.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 36</value>
   </data>
-  <data name="guna2TextBox5.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="input_whastapp.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
-  <data name="guna2TextBox5.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="input_whastapp.Size" type="System.Drawing.Size, System.Drawing">
     <value>243, 36</value>
   </data>
   <data name="guna2HtmlLabel1.AutoSize" type="System.Boolean, mscorlib">
@@ -208,13 +208,13 @@ senha.
     <value>Redefinir Senha
 </value>
   </data>
-  <data name="guna2Button1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="button_Gcod.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 14pt, style=Bold</value>
   </data>
-  <data name="guna2Button1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="button_Gcod.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 45</value>
   </data>
-  <data name="guna2Button1.Text" xml:space="preserve">
+  <data name="button_Gcod.Text" xml:space="preserve">
     <value>Gerar Código</value>
   </data>
   <data name="guna2HtmlLabel3.AutoSize" type="System.Boolean, mscorlib">

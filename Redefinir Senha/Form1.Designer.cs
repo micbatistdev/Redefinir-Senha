@@ -41,32 +41,32 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             fontDialog1 = new FontDialog();
-            label1 = new Label();
-            Whatsapp = new Label();
+            label_email = new Label();
+            label_whatsapp = new Label();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             textBox4 = new TextBox();
             backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(components);
-            guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
+            input_email = new Guna.UI2.WinForms.Guna2TextBox();
+            input_cdpostal = new Guna.UI2.WinForms.Guna2TextBox();
+            input_ddd = new Guna.UI2.WinForms.Guna2TextBox();
+            input_whastapp = new Guna.UI2.WinForms.Guna2TextBox();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            button_Gcod = new Guna.UI2.WinForms.Guna2Button();
             guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             SuspendLayout();
             // 
-            // label1
+            // label_email
             // 
-            resources.ApplyResources(label1, "label1");
-            label1.Name = "label1";
+            resources.ApplyResources(label_email, "label_email");
+            label_email.Name = "label_email";
             // 
-            // Whatsapp
+            // label_whatsapp
             // 
-            resources.ApplyResources(Whatsapp, "Whatsapp");
-            Whatsapp.FlatStyle = FlatStyle.System;
-            Whatsapp.Name = "Whatsapp";
+            resources.ApplyResources(label_whatsapp, "label_whatsapp");
+            label_whatsapp.FlatStyle = FlatStyle.System;
+            label_whatsapp.Name = "label_whatsapp";
             // 
             // textBox4
             // 
@@ -74,74 +74,78 @@
             textBox4.BorderStyle = BorderStyle.None;
             textBox4.Name = "textBox4";
             // 
-            // guna2TextBox2
+            // input_email
             // 
-            resources.ApplyResources(guna2TextBox2, "guna2TextBox2");
-            guna2TextBox2.CustomizableEdges = customizableEdges1;
-            guna2TextBox2.DefaultText = "";
-            guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Name = "guna2TextBox2";
-            guna2TextBox2.PasswordChar = '\0';
-            guna2TextBox2.PlaceholderText = "ex: contato@urbangreen.com";
-            guna2TextBox2.SelectedText = "";
-            guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            resources.ApplyResources(input_email, "input_email");
+            input_email.BorderColor = Color.Green;
+            input_email.CustomizableEdges = customizableEdges1;
+            input_email.DefaultText = "";
+            input_email.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            input_email.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            input_email.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            input_email.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            input_email.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            input_email.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            input_email.Name = "input_email";
+            input_email.PasswordChar = '\0';
+            input_email.PlaceholderForeColor = Color.DarkGray;
+            input_email.PlaceholderText = "ex: contato@urbangreen.com";
+            input_email.SelectedText = "";
+            input_email.ShadowDecoration.CustomizableEdges = customizableEdges2;
             // 
-            // guna2TextBox3
+            // input_cdpostal
             // 
-            resources.ApplyResources(guna2TextBox3, "guna2TextBox3");
-            guna2TextBox3.CustomizableEdges = customizableEdges3;
-            guna2TextBox3.DefaultText = "";
-            guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox3.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox3.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox3.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox3.Name = "guna2TextBox3";
-            guna2TextBox3.PasswordChar = '\0';
-            guna2TextBox3.PlaceholderText = "";
-            guna2TextBox3.SelectedText = "";
-            guna2TextBox3.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            resources.ApplyResources(input_cdpostal, "input_cdpostal");
+            input_cdpostal.BorderColor = Color.Green;
+            input_cdpostal.CustomizableEdges = customizableEdges3;
+            input_cdpostal.DefaultText = "";
+            input_cdpostal.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            input_cdpostal.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            input_cdpostal.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            input_cdpostal.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            input_cdpostal.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            input_cdpostal.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            input_cdpostal.Name = "input_cdpostal";
+            input_cdpostal.PasswordChar = '\0';
+            input_cdpostal.PlaceholderText = "";
+            input_cdpostal.SelectedText = "";
+            input_cdpostal.ShadowDecoration.CustomizableEdges = customizableEdges4;
             // 
-            // guna2TextBox4
+            // input_ddd
             // 
-            resources.ApplyResources(guna2TextBox4, "guna2TextBox4");
-            guna2TextBox4.CustomizableEdges = customizableEdges5;
-            guna2TextBox4.DefaultText = "";
-            guna2TextBox4.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox4.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox4.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox4.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox4.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox4.Name = "guna2TextBox4";
-            guna2TextBox4.PasswordChar = '\0';
-            guna2TextBox4.PlaceholderText = "";
-            guna2TextBox4.SelectedText = "";
-            guna2TextBox4.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            resources.ApplyResources(input_ddd, "input_ddd");
+            input_ddd.BorderColor = Color.Green;
+            input_ddd.CustomizableEdges = customizableEdges5;
+            input_ddd.DefaultText = "";
+            input_ddd.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            input_ddd.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            input_ddd.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            input_ddd.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            input_ddd.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            input_ddd.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            input_ddd.Name = "input_ddd";
+            input_ddd.PasswordChar = '\0';
+            input_ddd.PlaceholderText = "";
+            input_ddd.SelectedText = "";
+            input_ddd.ShadowDecoration.CustomizableEdges = customizableEdges6;
             // 
-            // guna2TextBox5
+            // input_whastapp
             // 
-            resources.ApplyResources(guna2TextBox5, "guna2TextBox5");
-            guna2TextBox5.BackColor = Color.Red;
-            guna2TextBox5.CustomizableEdges = customizableEdges7;
-            guna2TextBox5.DefaultText = "";
-            guna2TextBox5.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox5.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox5.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox5.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox5.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox5.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox5.Name = "guna2TextBox5";
-            guna2TextBox5.PasswordChar = '\0';
-            guna2TextBox5.PlaceholderText = "";
-            guna2TextBox5.SelectedText = "";
-            guna2TextBox5.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            resources.ApplyResources(input_whastapp, "input_whastapp");
+            input_whastapp.BorderColor = Color.Green;
+            input_whastapp.CustomizableEdges = customizableEdges7;
+            input_whastapp.DefaultText = "";
+            input_whastapp.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            input_whastapp.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            input_whastapp.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            input_whastapp.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            input_whastapp.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            input_whastapp.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            input_whastapp.Name = "input_whastapp";
+            input_whastapp.PasswordChar = '\0';
+            input_whastapp.PlaceholderText = "";
+            input_whastapp.SelectedText = "";
+            input_whastapp.ShadowDecoration.CustomizableEdges = customizableEdges8;
             // 
             // guna2HtmlLabel1
             // 
@@ -157,20 +161,20 @@
             guna2HtmlLabel2.ForeColor = Color.FromArgb(0, 192, 0);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             // 
-            // guna2Button1
+            // button_Gcod
             // 
-            resources.ApplyResources(guna2Button1, "guna2Button1");
-            guna2Button1.CustomizableEdges = customizableEdges9;
-            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button1.FillColor = Color.FromArgb(0, 192, 0);
-            guna2Button1.ForeColor = Color.White;
-            guna2Button1.HoverState.FillColor = Color.Green;
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            guna2Button1.Click += guna2Button1_Click;
+            resources.ApplyResources(button_Gcod, "button_Gcod");
+            button_Gcod.CustomizableEdges = customizableEdges9;
+            button_Gcod.DisabledState.BorderColor = Color.DarkGray;
+            button_Gcod.DisabledState.CustomBorderColor = Color.DarkGray;
+            button_Gcod.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            button_Gcod.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            button_Gcod.FillColor = Color.FromArgb(0, 192, 0);
+            button_Gcod.ForeColor = Color.White;
+            button_Gcod.HoverState.FillColor = Color.Green;
+            button_Gcod.Name = "button_Gcod";
+            button_Gcod.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            button_Gcod.Click += guna2Button1_Click;
             // 
             // guna2HtmlLabel3
             // 
@@ -184,16 +188,16 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             Controls.Add(guna2HtmlLabel3);
-            Controls.Add(guna2Button1);
+            Controls.Add(button_Gcod);
             Controls.Add(guna2HtmlLabel2);
             Controls.Add(guna2HtmlLabel1);
-            Controls.Add(guna2TextBox5);
-            Controls.Add(guna2TextBox4);
-            Controls.Add(guna2TextBox3);
-            Controls.Add(guna2TextBox2);
+            Controls.Add(input_whastapp);
+            Controls.Add(input_ddd);
+            Controls.Add(input_cdpostal);
+            Controls.Add(input_email);
             Controls.Add(textBox4);
-            Controls.Add(Whatsapp);
-            Controls.Add(label1);
+            Controls.Add(label_whatsapp);
+            Controls.Add(label_email);
             Name = "Redefinir_Senha";
             Load += Form1_Load;
             ResumeLayout(false);
@@ -202,19 +206,19 @@
 
         #endregion
         private FontDialog fontDialog1;
-        private Label label1;
-        private Label Whatsapp;
+        private Label label_email;
+        private Label label_whatsapp;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private TextBox textBox4;
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox5;
+        private Guna.UI2.WinForms.Guna2TextBox input_email;
+        private Guna.UI2.WinForms.Guna2TextBox input_cdpostal;
+        private Guna.UI2.WinForms.Guna2TextBox input_ddd;
+        private Guna.UI2.WinForms.Guna2TextBox input_whastapp;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button button_Gcod;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
     }
 }

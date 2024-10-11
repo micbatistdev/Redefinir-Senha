@@ -36,34 +36,34 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            button_enviar = new Guna.UI2.WinForms.Guna2Button();
             guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
+            input_senhaConfirm = new Guna.UI2.WinForms.Guna2TextBox();
+            input_novaSenha = new Guna.UI2.WinForms.Guna2TextBox();
+            input_codacess = new Guna.UI2.WinForms.Guna2TextBox();
             SuspendLayout();
             // 
-            // guna2Button1
+            // button_enviar
             // 
-            guna2Button1.CustomizableEdges = customizableEdges1;
-            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button1.FillColor = Color.FromArgb(0, 192, 0);
-            guna2Button1.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
-            guna2Button1.ForeColor = Color.White;
-            guna2Button1.HoverState.FillColor = Color.Green;
-            guna2Button1.Location = new Point(830, 527);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Button1.Size = new Size(180, 45);
-            guna2Button1.TabIndex = 5;
-            guna2Button1.Text = "ENVIAR";
+            button_enviar.CustomizableEdges = customizableEdges1;
+            button_enviar.DisabledState.BorderColor = Color.DarkGray;
+            button_enviar.DisabledState.CustomBorderColor = Color.DarkGray;
+            button_enviar.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            button_enviar.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            button_enviar.FillColor = Color.FromArgb(0, 192, 0);
+            button_enviar.Font = new Font("Segoe UI", 14F, FontStyle.Bold);
+            button_enviar.ForeColor = Color.White;
+            button_enviar.HoverState.FillColor = Color.Green;
+            button_enviar.Location = new Point(830, 527);
+            button_enviar.Name = "button_enviar";
+            button_enviar.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            button_enviar.Size = new Size(180, 45);
+            button_enviar.TabIndex = 5;
+            button_enviar.Text = "ENVIAR";
             // 
             // guna2HtmlLabel1
             // 
@@ -118,67 +118,70 @@
             guna2HtmlLabel5.TabIndex = 10;
             guna2HtmlLabel5.Text = "Insira o código de acesso";
             // 
-            // guna2TextBox1
+            // input_senhaConfirm
             // 
-            guna2TextBox1.CustomizableEdges = customizableEdges3;
-            guna2TextBox1.DefaultText = "";
-            guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox1.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Font = new Font("Sans Serif Collection", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2TextBox1.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox1.Location = new Point(722, 352);
-            guna2TextBox1.Margin = new Padding(4, 6, 4, 6);
-            guna2TextBox1.Name = "guna2TextBox1";
-            guna2TextBox1.PasswordChar = '\0';
-            guna2TextBox1.PlaceholderText = "";
-            guna2TextBox1.SelectedText = "";
-            guna2TextBox1.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2TextBox1.Size = new Size(370, 36);
-            guna2TextBox1.TabIndex = 11;
+            input_senhaConfirm.BorderColor = Color.Green;
+            input_senhaConfirm.CustomizableEdges = customizableEdges3;
+            input_senhaConfirm.DefaultText = "";
+            input_senhaConfirm.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            input_senhaConfirm.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            input_senhaConfirm.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            input_senhaConfirm.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            input_senhaConfirm.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            input_senhaConfirm.Font = new Font("Sans Serif Collection", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            input_senhaConfirm.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            input_senhaConfirm.Location = new Point(722, 352);
+            input_senhaConfirm.Margin = new Padding(4, 6, 4, 6);
+            input_senhaConfirm.Name = "input_senhaConfirm";
+            input_senhaConfirm.PasswordChar = '\0';
+            input_senhaConfirm.PlaceholderText = "";
+            input_senhaConfirm.SelectedText = "";
+            input_senhaConfirm.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            input_senhaConfirm.Size = new Size(370, 36);
+            input_senhaConfirm.TabIndex = 11;
             // 
-            // guna2TextBox2
+            // input_novaSenha
             // 
-            guna2TextBox2.CustomizableEdges = customizableEdges5;
-            guna2TextBox2.DefaultText = "";
-            guna2TextBox2.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox2.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox2.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox2.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Font = new Font("Segoe UI", 9F);
-            guna2TextBox2.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox2.Location = new Point(722, 259);
-            guna2TextBox2.Name = "guna2TextBox2";
-            guna2TextBox2.PasswordChar = '\0';
-            guna2TextBox2.PlaceholderText = "";
-            guna2TextBox2.SelectedText = "";
-            guna2TextBox2.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2TextBox2.Size = new Size(369, 36);
-            guna2TextBox2.TabIndex = 12;
+            input_novaSenha.BorderColor = Color.Green;
+            input_novaSenha.CustomizableEdges = customizableEdges5;
+            input_novaSenha.DefaultText = "";
+            input_novaSenha.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            input_novaSenha.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            input_novaSenha.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            input_novaSenha.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            input_novaSenha.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            input_novaSenha.Font = new Font("Segoe UI", 9F);
+            input_novaSenha.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            input_novaSenha.Location = new Point(722, 259);
+            input_novaSenha.Name = "input_novaSenha";
+            input_novaSenha.PasswordChar = '\0';
+            input_novaSenha.PlaceholderText = "";
+            input_novaSenha.SelectedText = "";
+            input_novaSenha.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            input_novaSenha.Size = new Size(369, 36);
+            input_novaSenha.TabIndex = 12;
             // 
-            // guna2TextBox3
+            // input_codacess
             // 
-            guna2TextBox3.CustomizableEdges = customizableEdges7;
-            guna2TextBox3.DefaultText = "";
-            guna2TextBox3.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            guna2TextBox3.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            guna2TextBox3.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox3.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            guna2TextBox3.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox3.Font = new Font("Sans Serif Collection", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            guna2TextBox3.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2TextBox3.Location = new Point(725, 446);
-            guna2TextBox3.Margin = new Padding(4, 6, 4, 6);
-            guna2TextBox3.Name = "guna2TextBox3";
-            guna2TextBox3.PasswordChar = '\0';
-            guna2TextBox3.PlaceholderText = "";
-            guna2TextBox3.SelectedText = "";
-            guna2TextBox3.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            guna2TextBox3.Size = new Size(370, 36);
-            guna2TextBox3.TabIndex = 13;
+            input_codacess.BorderColor = Color.Green;
+            input_codacess.CustomizableEdges = customizableEdges7;
+            input_codacess.DefaultText = "";
+            input_codacess.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            input_codacess.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            input_codacess.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            input_codacess.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            input_codacess.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            input_codacess.Font = new Font("Sans Serif Collection", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            input_codacess.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            input_codacess.Location = new Point(725, 446);
+            input_codacess.Margin = new Padding(4, 6, 4, 6);
+            input_codacess.Name = "input_codacess";
+            input_codacess.PasswordChar = '\0';
+            input_codacess.PlaceholderText = "";
+            input_codacess.SelectedText = "";
+            input_codacess.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            input_codacess.Size = new Size(370, 36);
+            input_codacess.TabIndex = 13;
             // 
             // Criar_Nova_Senha
             // 
@@ -186,15 +189,15 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1184, 661);
-            Controls.Add(guna2TextBox3);
-            Controls.Add(guna2TextBox2);
-            Controls.Add(guna2TextBox1);
+            Controls.Add(input_codacess);
+            Controls.Add(input_novaSenha);
+            Controls.Add(input_senhaConfirm);
             Controls.Add(guna2HtmlLabel5);
             Controls.Add(guna2HtmlLabel4);
             Controls.Add(guna2HtmlLabel3);
             Controls.Add(guna2HtmlLabel2);
             Controls.Add(guna2HtmlLabel1);
-            Controls.Add(guna2Button1);
+            Controls.Add(button_enviar);
             Name = "Criar_Nova_Senha";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Criar_Nova_Senha";
@@ -204,14 +207,14 @@
         }
 
         #endregion
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button button_enviar;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
+        private Guna.UI2.WinForms.Guna2TextBox input_senhaConfirm;
+        private Guna.UI2.WinForms.Guna2TextBox input_novaSenha;
+        private Guna.UI2.WinForms.Guna2TextBox input_codacess;
     }
 }
