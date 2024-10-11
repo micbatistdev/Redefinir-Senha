@@ -1,0 +1,24 @@
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\bin\Debug\net8.0-windows\Redefinir Senha.exe
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\bin\Debug\net8.0-windows\Redefinir Senha.deps.json
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\bin\Debug\net8.0-windows\Redefinir Senha.runtimeconfig.json
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\bin\Debug\net8.0-windows\Redefinir Senha.dll
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\bin\Debug\net8.0-windows\Redefinir Senha.pdb
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\bin\Debug\net8.0-windows\pt-BR\Redefinir Senha.resources.dll
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\obj\Debug\net8.0-windows\Redefinir_Senha.Redefinir_Senha.resources
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\obj\Debug\net8.0-windows\Redefinir_Senha.Redefinir_Senha.pt-BR.resources
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\obj\Debug\net8.0-windows\Redefinir Senha.csproj.GenerateResource.cache
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\obj\Debug\net8.0-windows\Redefinir Senha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\obj\Debug\net8.0-windows\Redefinir Senha.AssemblyInfoInputs.cache
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\obj\Debug\net8.0-windows\Redefinir Senha.AssemblyInfo.cs
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\obj\Debug\net8.0-windows\Redefinir Senha.csproj.CoreCompileInputs.cache
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\obj\Debug\net8.0-windows\pt-BR\Redefinir Senha.resources.dll
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\obj\Debug\net8.0-windows\Redefinir Senha.dll
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\obj\Debug\net8.0-windows\refint\Redefinir Senha.dll
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\obj\Debug\net8.0-windows\Redefinir Senha.pdb
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\obj\Debug\net8.0-windows\Redefinir Senha.genruntimeconfig.cache
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\obj\Debug\net8.0-windows\ref\Redefinir Senha.dll
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\bin\Debug\net8.0-windows\Guna.UI2.dll
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\bin\Debug\net8.0-windows\System.Management.dll
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\bin\Debug\net8.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\obj\Debug\net8.0-windows\Redefinir Senha.csproj.AssemblyReference.cache
+C:\Users\micha\OneDrive\Área de Trabalho\Redefinir Senha\Redefinir Senha\obj\Debug\net8.0-windows\Redefini.F56FD47B.Up2Date
