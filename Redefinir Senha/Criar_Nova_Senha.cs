@@ -16,5 +16,15 @@ namespace Redefinir_Senha
         {
             InitializeComponent();
         }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Criar_Nova_Senha_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

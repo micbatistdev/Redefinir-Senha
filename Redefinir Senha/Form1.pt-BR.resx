@@ -183,14 +183,8 @@
   <data name="guna2HtmlLabel1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Sans Serif Collection, 16pt, style=Bold</value>
   </data>
-  <data name="guna2HtmlLabel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>81, 229</value>
-  </data>
   <data name="guna2HtmlLabel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>370, 203</value>
-  </data>
-  <data name="guna2HtmlLabel1.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
   </data>
   <data name="guna2HtmlLabel1.Text" xml:space="preserve">
     <value>Preencha os campos
@@ -205,13 +199,10 @@ senha.
     <value>Sans Serif Collection, 28pt, style=Bold</value>
   </data>
   <data name="guna2HtmlLabel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>373, 50</value>
+    <value>356, 50</value>
   </data>
   <data name="guna2HtmlLabel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>472, 93</value>
-  </data>
-  <data name="guna2HtmlLabel2.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
   </data>
   <data name="guna2HtmlLabel2.Text" xml:space="preserve">
     <value>Redefinir Senha
@@ -220,14 +211,8 @@ senha.
   <data name="guna2Button1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 14pt, style=Bold</value>
   </data>
-  <data name="guna2Button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>819, 512</value>
-  </data>
   <data name="guna2Button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>180, 45</value>
-  </data>
-  <data name="guna2Button1.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
   </data>
   <data name="guna2Button1.Text" xml:space="preserve">
     <value>Gerar Código</value>
@@ -238,14 +223,8 @@ senha.
   <data name="guna2HtmlLabel3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Sans Serif Collection, 7pt</value>
   </data>
-  <data name="guna2HtmlLabel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>711, 406</value>
-  </data>
   <data name="guna2HtmlLabel3.Size" type="System.Drawing.Size, System.Drawing">
     <value>298, 73</value>
-  </data>
-  <data name="guna2HtmlLabel3.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
   </data>
   <data name="guna2HtmlLabel3.Text" xml:space="preserve">
     <value>Você irá receber um código no número 

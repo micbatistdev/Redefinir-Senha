@@ -128,6 +128,7 @@
             // guna2TextBox5
             // 
             resources.ApplyResources(guna2TextBox5, "guna2TextBox5");
+            guna2TextBox5.BackColor = Color.Red;
             guna2TextBox5.CustomizableEdges = customizableEdges7;
             guna2TextBox5.DefaultText = "";
             guna2TextBox5.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
@@ -166,6 +167,7 @@
             guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             guna2Button1.FillColor = Color.FromArgb(0, 192, 0);
             guna2Button1.ForeColor = Color.White;
+            guna2Button1.HoverState.FillColor = Color.Green;
             guna2Button1.Name = "guna2Button1";
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges10;
             guna2Button1.Click += guna2Button1_Click;

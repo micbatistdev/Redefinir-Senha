@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Redefinir Senha")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d1807614d0ceb2fc8f4ff18a61501372be66d22")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9fabb090ddfce9175dbe51514f4fea4ea5ffa331")]
 [assembly: System.Reflection.AssemblyProductAttribute("Redefinir Senha")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Redefinir Senha")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
