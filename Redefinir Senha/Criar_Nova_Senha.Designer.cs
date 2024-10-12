@@ -49,6 +49,7 @@
             // 
             // button_enviar
             // 
+            button_enviar.BorderRadius = 20;
             button_enviar.CustomizableEdges = customizableEdges1;
             button_enviar.DisabledState.BorderColor = Color.DarkGray;
             button_enviar.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -121,6 +122,7 @@
             // input_senhaConfirm
             // 
             input_senhaConfirm.BorderColor = Color.Green;
+            input_senhaConfirm.BorderRadius = 15;
             input_senhaConfirm.CustomizableEdges = customizableEdges3;
             input_senhaConfirm.DefaultText = "";
             input_senhaConfirm.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
@@ -143,6 +145,7 @@
             // input_novaSenha
             // 
             input_novaSenha.BorderColor = Color.Green;
+            input_novaSenha.BorderRadius = 15;
             input_novaSenha.CustomizableEdges = customizableEdges5;
             input_novaSenha.DefaultText = "";
             input_novaSenha.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
@@ -164,6 +167,7 @@
             // input_codacess
             // 
             input_codacess.BorderColor = Color.Green;
+            input_codacess.BorderRadius = 15;
             input_codacess.CustomizableEdges = customizableEdges7;
             input_codacess.DefaultText = "";
             input_codacess.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);

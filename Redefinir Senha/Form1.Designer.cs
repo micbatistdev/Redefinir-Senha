@@ -78,6 +78,7 @@
             // 
             resources.ApplyResources(input_email, "input_email");
             input_email.BorderColor = Color.Green;
+            input_email.BorderRadius = 15;
             input_email.CustomizableEdges = customizableEdges1;
             input_email.DefaultText = "";
             input_email.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
@@ -97,6 +98,7 @@
             // 
             resources.ApplyResources(input_cdpostal, "input_cdpostal");
             input_cdpostal.BorderColor = Color.Green;
+            input_cdpostal.BorderRadius = 15;
             input_cdpostal.CustomizableEdges = customizableEdges3;
             input_cdpostal.DefaultText = "";
             input_cdpostal.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
@@ -115,6 +117,7 @@
             // 
             resources.ApplyResources(input_ddd, "input_ddd");
             input_ddd.BorderColor = Color.Green;
+            input_ddd.BorderRadius = 15;
             input_ddd.CustomizableEdges = customizableEdges5;
             input_ddd.DefaultText = "";
             input_ddd.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
@@ -133,6 +136,7 @@
             // 
             resources.ApplyResources(input_whastapp, "input_whastapp");
             input_whastapp.BorderColor = Color.Green;
+            input_whastapp.BorderRadius = 15;
             input_whastapp.CustomizableEdges = customizableEdges7;
             input_whastapp.DefaultText = "";
             input_whastapp.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
@@ -164,6 +168,7 @@
             // button_Gcod
             // 
             resources.ApplyResources(button_Gcod, "button_Gcod");
+            button_Gcod.BorderRadius = 20;
             button_Gcod.CustomizableEdges = customizableEdges9;
             button_Gcod.DisabledState.BorderColor = Color.DarkGray;
             button_Gcod.DisabledState.CustomBorderColor = Color.DarkGray;
